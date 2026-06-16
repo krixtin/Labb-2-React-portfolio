@@ -1,0 +1,52 @@
+{
+  "cv": {
+    "title": "Curriculum vitae",
+    "sections": [
+      {
+        "title": "Utbildning",
+        "items": [
+          {
+            "title": "Fullstackutvecklare .NET",
+            "period_institution": "2025–2027 Chas Academy, Stockholm",
+            "description": "Tvåårig YH-utbildning som omfattar backendutveckling med C#, frontendutveckling med Javascript, API:er, versionshantering med Git, SQL-databaser, ORM, agila metoder, AI-stödd utveckling m.m. samt praktik och examensarbete."
+          },
+          {
+            "title": "Kandidatexamen i översättningsvetenskap",
+            "period_institution": "2010–2015 Stockholms universitet",
+            "description": "Yrkesinriktat kandidatprogram omfattande 90 högskolepoäng översättning, 60 högskolepoäng engelska samt 30 högskolepoäng litteraturvetenskap. I utbildningen ingick bland annat kurser i översättningsvetenskap, översättningsmetodologi, textanalys, lingvistik och litteraturvetenskap."
+          },
+          {
+            "title": "Övriga universitetskurser",
+            "period_institution": "2009–2022 Stockholms universitet, Bibliotekshögskolan",
+            "description": "Förutom ovanstående utbildningar har jag även läst fristående kurser i bl.a. tyska, franska, filosofi, litterär översättning och biblioteksvetenskap."
+          }
+        ]
+      },
+      {
+        "title": "Arbetslivserfarenhet",
+        "items": [
+          {
+            "title": "Frilansande översättare",
+            "period_institution": "2018– KEA text enskild firma",
+            "description": "Arbete med översättning och andra språktjänster på uppdragsbasis. Drift och administration av enskild firma, inbegripet marknadsföring, fakturering och viss bokföring."
+          },
+          {
+            "title": "Lead Translator",
+            "period_institution": "2017–2018 SDL, Stockholm",
+            "description": "Översättning och korrekturläsning. Övriga språkliga uppgifter. Administrativt arbete."
+          },
+          {
+            "title": "Translator/Reviser",
+            "period_institution": "2016–2017 Amplexor, Riga",
+            "description": "Översättning och korrekturläsning. Övriga språkliga uppgifter. Utbildning av nya översättare."
+          },
+          {
+            "title": "Transkriberare",
+            "period_institution": "2013–2015 transkribering.nu, Stockholm",
+            "description": "Transkribering av inspelat tal till text. Korrekturläsning och annat språkligt arbete. Arbetsledning och administration."
+          }
+        ]
+      }
+    ]
+  }
+}
