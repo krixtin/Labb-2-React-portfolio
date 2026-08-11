@@ -12,15 +12,39 @@
     --accent-color: #4a4a4a;
     }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+html {
+    height: 100%;
+}
 
 
 body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#index-main {
+    flex-direction: row;
 }
 
 .background2 {
@@ -33,11 +57,12 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 header {
     padding: 1rem;
-    background-image: url("images/keyboard-header.jpg");
+    background-image: url("./assets/images/keyboard-header.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -57,13 +82,13 @@ a {
 #short-about-me {
     width: 20rem;
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 1rem;
     background-color: var(--secondary-bg-color);
     border-radius: 10px;
+    align-self: flex-start;
 }
 
 #profile-pic {
@@ -72,25 +97,20 @@ a {
     margin-top: 1rem;
 }
 
-#index-main {
-    display: flex;
-    flex-direction:row;
-    gap: 2rem;
-    padding: 1rem;
-}
 
-#portfolio-projects {
+#portfolio-projects ul {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.5rem;
 }
 
-#cv-main {
+#github-projects ul {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 1rem;
+    gap: 0.5rem;
 }
+
+
 
 .cv-section {
     background-color: var(--secondary-bg-color);
@@ -106,7 +126,6 @@ a {
 
 .nav-menu {
     justify-content: center;
-    padding:0;
     gap:15%;
     display: flex;
 
@@ -119,10 +138,9 @@ a {
     border-radius: 10px;
     font-variant: small-caps;
     font-weight: 600;
-    font-size: 1,2rem;
 }
 
-nav a, a-visited {
+nav a {
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -181,11 +199,9 @@ nav .current-page {
 
 footer {
     background-color: var(--primary-color);
-    position: fixed;
     font-weight: 600;
-    bottom: 0;
     width: 100%;
-    height: 50px;
+    padding: 1rem;
 }
 
 footer ul {
