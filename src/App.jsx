@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Labb-2-React-portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
